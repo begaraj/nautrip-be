@@ -65,6 +65,11 @@
       "type": "hasMany",
       "model": "Category",
       "foreignKey": ""
+    },
+    "Trips": {
+      "type": "hasOne",
+      "model": "Trip",
+      "foreignKey": ""
     }
   },
   "acls": [],

@@ -1,0 +1,45 @@
+{
+  "name": "Trip",
+  "plural": "trips",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "price": {
+      "type": "number"
+    },
+    "Location": {
+      "type": "object",
+      "required": true
+    },
+    "transportation": {
+      "type": "string"
+    },
+    "housing": {
+      "type": "string"
+    },
+    "activities": {
+      "type": [
+        "string"
+      ]
+    },
+    "score": {
+      "type": "number"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
