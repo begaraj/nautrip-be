@@ -1,0 +1,23 @@
+{
+  "name": "Location",
+  "plural": "locations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "latitude": {
+      "type": "number",
+      "required": true
+    },
+    "longtitude": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
