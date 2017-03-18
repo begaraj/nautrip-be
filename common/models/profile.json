@@ -28,16 +28,6 @@
     "pictureUrl": {
       "type": "string"
     },
-    "Rewards": {
-      "type": "array"
-    },
-    "Locations": {
-      "type": "array"
-    },
-    "Address": {
-      "type": "object",
-      "required": true
-    },
     "CreditCard": {
       "type": "object"
     },
@@ -55,7 +45,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Rewards": {
+      "type": "hasMany",
+      "model": "Reward",
+      "foreignKey": ""
+    },
+    "Locations": {
+      "type": "hasMany",
+      "model": "Location",
+      "foreignKey": ""
+    },
+    "Addresses": {
+      "type": "hasOne",
+      "model": "Address",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
