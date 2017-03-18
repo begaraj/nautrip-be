@@ -38,5 +38,9 @@
   "Profile": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Address": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
