@@ -60,6 +60,11 @@
       "type": "hasOne",
       "model": "Address",
       "foreignKey": ""
+    },
+    "Categories": {
+      "type": "hasMany",
+      "model": "Category",
+      "foreignKey": ""
     }
   },
   "acls": [],
