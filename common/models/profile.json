@@ -1,0 +1,46 @@
+{
+  "name": "Profile",
+  "plural": "profiles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "Address": {
+      "type": "object",
+      "required": true
+    },
+    "CreditCard": {
+      "type": "object"
+    },
+    "PayPal": {
+      "type": "object"
+    },
+    "Sofort": {
+      "type": "object"
+    },
+    "Sepa": {
+      "type": "object"
+    },
+    "GiroPay": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
