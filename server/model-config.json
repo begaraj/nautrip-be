@@ -58,5 +58,13 @@
   "Trip": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Post": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Comment": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
