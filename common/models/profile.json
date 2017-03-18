@@ -19,6 +19,21 @@
       "type": "string",
       "required": true
     },
+    "points": {
+      "type": "number"
+    },
+    "popularity": {
+      "type": "number"
+    },
+    "pictureUrl": {
+      "type": "string"
+    },
+    "Rewards": {
+      "type": "object"
+    },
+    "Locations": {
+      "type": "object"
+    },
     "Address": {
       "type": "object",
       "required": true
