@@ -42,5 +42,9 @@
   "Address": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Reward": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

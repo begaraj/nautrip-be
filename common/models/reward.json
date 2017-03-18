@@ -1,0 +1,29 @@
+{
+  "name": "Reward",
+  "plural": "rewards",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "iconUrl": {
+      "type": "string",
+      "required": true,
+      "default": "http://placehold.it/100x100"
+    },
+    "value": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

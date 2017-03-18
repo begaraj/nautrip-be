@@ -29,10 +29,10 @@
       "type": "string"
     },
     "Rewards": {
-      "type": "object"
+      "type": "array"
     },
     "Locations": {
-      "type": "object"
+      "type": "array"
     },
     "Address": {
       "type": "object",
